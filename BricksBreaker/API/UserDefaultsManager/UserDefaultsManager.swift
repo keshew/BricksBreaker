@@ -12,7 +12,7 @@ class UserDefaultsManager: ObservableObject {
     
     @Published var arrayOfBalls: [BallModel] = [
         BallModel(name: "Pink", image: BrickImageName.ball1.rawValue, isAvailible: false, isSelected: true, text: "Selected"),
-        BallModel(name: "Violet", image: BrickImageName.ball2.rawValue, isAvailible: true, isSelected: false, text: "Available"),
+        BallModel(name: "Violet", image: BrickImageName.ball2.rawValue, isAvailible: false, isSelected: false, text: "level 3"),
         BallModel(name: "Azure", image: BrickImageName.ball3.rawValue, isAvailible: false, isSelected: false, text: "level 8"),
         BallModel(name: "Purple", image: BrickImageName.ball4.rawValue, isAvailible: false, isSelected: false, text: "level 16"),
         BallModel(name: "Fuchsia", image: BrickImageName.ball5.rawValue, isAvailible: false, isSelected: false, text: "level 24"),
