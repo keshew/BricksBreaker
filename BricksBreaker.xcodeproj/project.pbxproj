@@ -7,18 +7,97 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		869738842D4E6F7800E7E5AF /* BrocksPauseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869738812D4E6F7800E7E5AF /* BrocksPauseView.swift */; };
+		869738852D4E6F7800E7E5AF /* BrocksPauseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869738822D4E6F7800E7E5AF /* BrocksPauseModel.swift */; };
+		869738862D4E6F7800E7E5AF /* BrocksPauseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869738832D4E6F7800E7E5AF /* BrocksPauseViewModel.swift */; };
+		8697388B2D4E77A000E7E5AF /* BricksLoseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869738882D4E77A000E7E5AF /* BricksLoseView.swift */; };
+		8697388C2D4E77A000E7E5AF /* BricksLoseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869738892D4E77A000E7E5AF /* BricksLoseModel.swift */; };
+		8697388D2D4E77A000E7E5AF /* BricksLoseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697388A2D4E77A000E7E5AF /* BricksLoseViewModel.swift */; };
+		869738922D4E782100E7E5AF /* BricksWinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697388F2D4E782100E7E5AF /* BricksWinView.swift */; };
+		869738932D4E782100E7E5AF /* BricksWinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869738902D4E782100E7E5AF /* BricksWinModel.swift */; };
+		869738942D4E782100E7E5AF /* BricksWinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869738912D4E782100E7E5AF /* BricksWinViewModel.swift */; };
+		8697389A2D4E90E300E7E5AF /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869738992D4E90E300E7E5AF /* AudioManager.swift */; };
+		869738A02D4E90EE00E7E5AF /* lose.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8697389B2D4E90ED00E7E5AF /* lose.wav */; };
+		869738A22D4E90EE00E7E5AF /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8697389D2D4E90EE00E7E5AF /* win.wav */; };
+		869738A62D4E92F000E7E5AF /* bg.wav in Resources */ = {isa = PBXBuildFile; fileRef = 869738A52D4E92F000E7E5AF /* bg.wav */; };
+		869738A92D4E979B00E7E5AF /* yellowBall.wav in Resources */ = {isa = PBXBuildFile; fileRef = 869738A72D4E979B00E7E5AF /* yellowBall.wav */; };
+		869738AA2D4E979B00E7E5AF /* block.wav in Resources */ = {isa = PBXBuildFile; fileRef = 869738A82D4E979B00E7E5AF /* block.wav */; };
+		869738AE2D4E984300E7E5AF /* ball.wav in Resources */ = {isa = PBXBuildFile; fileRef = 869738AD2D4E984300E7E5AF /* ball.wav */; };
+		869738B12D4E9A2800E7E5AF /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869738B02D4E9A2800E7E5AF /* UserDefaultsManager.swift */; };
+		869738B52D4EC1EB00E7E5AF /* BrickGameSpriteKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869738B42D4EC1EB00E7E5AF /* BrickGameSpriteKit.swift */; };
+		869738B72D4EC1F400E7E5AF /* BrickGameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869738B62D4EC1F400E7E5AF /* BrickGameData.swift */; };
+		869738B92D4EC1F900E7E5AF /* CBitMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869738B82D4EC1F900E7E5AF /* CBitMask.swift */; };
 		8699A26B2D42CB1B00A66FF9 /* BricksBreakerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A26A2D42CB1B00A66FF9 /* BricksBreakerApp.swift */; };
-		8699A26D2D42CB1B00A66FF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A26C2D42CB1B00A66FF9 /* ContentView.swift */; };
 		8699A26F2D42CB1C00A66FF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8699A26E2D42CB1C00A66FF9 /* Assets.xcassets */; };
 		8699A2722D42CB1C00A66FF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8699A2712D42CB1C00A66FF9 /* Preview Assets.xcassets */; };
+		8699A27D2D42CB5800A66FF9 /* BrickCustomButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A27C2D42CB5800A66FF9 /* BrickCustomButtons.swift */; };
+		8699A27F2D42CB6100A66FF9 /* BrickImageName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A27E2D42CB6100A66FF9 /* BrickImageName.swift */; };
+		8699A2822D42CB6F00A66FF9 /* BrickTextExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A2812D42CB6F00A66FF9 /* BrickTextExtension.swift */; };
+		8699A2872D42CD3A00A66FF9 /* FredokaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8699A2852D42CCEB00A66FF9 /* FredokaOne-Regular.ttf */; };
+		8699A28E2D42D02F00A66FF9 /* BrickMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A28B2D42D02F00A66FF9 /* BrickMenuView.swift */; };
+		8699A28F2D42D02F00A66FF9 /* BrickMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A28C2D42D02F00A66FF9 /* BrickMenuModel.swift */; };
+		8699A2902D42D02F00A66FF9 /* BrickMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A28D2D42D02F00A66FF9 /* BrickMenuViewModel.swift */; };
+		8699A2962D42D5EF00A66FF9 /* BrickSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A2932D42D5EF00A66FF9 /* BrickSettingsView.swift */; };
+		8699A2972D42D5EF00A66FF9 /* BrickSettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A2942D42D5EF00A66FF9 /* BrickSettingsModel.swift */; };
+		8699A2982D42D5EF00A66FF9 /* BrickSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A2952D42D5EF00A66FF9 /* BrickSettingsViewModel.swift */; };
+		8699A29D2D42DC6400A66FF9 /* BrickShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A29A2D42DC6400A66FF9 /* BrickShopView.swift */; };
+		8699A29E2D42DC6400A66FF9 /* BrickShopModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A29B2D42DC6400A66FF9 /* BrickShopModel.swift */; };
+		8699A29F2D42DC6400A66FF9 /* BrickShopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A29C2D42DC6400A66FF9 /* BrickShopViewModel.swift */; };
+		8699A2A42D42E84600A66FF9 /* BrickLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A2A12D42E84600A66FF9 /* BrickLevelView.swift */; };
+		8699A2A52D42E84600A66FF9 /* BrickLevelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A2A22D42E84600A66FF9 /* BrickLevelModel.swift */; };
+		8699A2A62D42E84600A66FF9 /* BrickLevelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A2A32D42E84600A66FF9 /* BrickLevelViewModel.swift */; };
+		8699A2AB2D42ED7500A66FF9 /* BrickGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A2A82D42ED7500A66FF9 /* BrickGameView.swift */; };
+		8699A2AC2D42ED7500A66FF9 /* BrickGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A2A92D42ED7500A66FF9 /* BrickGameModel.swift */; };
+		8699A2AD2D42ED7500A66FF9 /* BrickGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8699A2AA2D42ED7500A66FF9 /* BrickGameViewModel.swift */; };
+		86D5D04D2D4C0970007DEF84 /* BricksGameSpriteKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D5D04C2D4C0970007DEF84 /* BricksGameSpriteKitExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		869738812D4E6F7800E7E5AF /* BrocksPauseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrocksPauseView.swift; sourceTree = "<group>"; };
+		869738822D4E6F7800E7E5AF /* BrocksPauseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrocksPauseModel.swift; sourceTree = "<group>"; };
+		869738832D4E6F7800E7E5AF /* BrocksPauseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrocksPauseViewModel.swift; sourceTree = "<group>"; };
+		869738882D4E77A000E7E5AF /* BricksLoseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BricksLoseView.swift; sourceTree = "<group>"; };
+		869738892D4E77A000E7E5AF /* BricksLoseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BricksLoseModel.swift; sourceTree = "<group>"; };
+		8697388A2D4E77A000E7E5AF /* BricksLoseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BricksLoseViewModel.swift; sourceTree = "<group>"; };
+		8697388F2D4E782100E7E5AF /* BricksWinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BricksWinView.swift; sourceTree = "<group>"; };
+		869738902D4E782100E7E5AF /* BricksWinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BricksWinModel.swift; sourceTree = "<group>"; };
+		869738912D4E782100E7E5AF /* BricksWinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BricksWinViewModel.swift; sourceTree = "<group>"; };
+		869738992D4E90E300E7E5AF /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		8697389B2D4E90ED00E7E5AF /* lose.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lose.wav; sourceTree = "<group>"; };
+		8697389D2D4E90EE00E7E5AF /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
+		869738A52D4E92F000E7E5AF /* bg.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bg.wav; sourceTree = "<group>"; };
+		869738A72D4E979B00E7E5AF /* yellowBall.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = yellowBall.wav; sourceTree = "<group>"; };
+		869738A82D4E979B00E7E5AF /* block.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = block.wav; path = ../../../../../../../../../Downloads/block.wav; sourceTree = "<group>"; };
+		869738AD2D4E984300E7E5AF /* ball.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ball.wav; sourceTree = "<group>"; };
+		869738B02D4E9A2800E7E5AF /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		869738B42D4EC1EB00E7E5AF /* BrickGameSpriteKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickGameSpriteKit.swift; sourceTree = "<group>"; };
+		869738B62D4EC1F400E7E5AF /* BrickGameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickGameData.swift; sourceTree = "<group>"; };
+		869738B82D4EC1F900E7E5AF /* CBitMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBitMask.swift; sourceTree = "<group>"; };
 		8699A2672D42CB1B00A66FF9 /* BricksBreaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BricksBreaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8699A26A2D42CB1B00A66FF9 /* BricksBreakerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BricksBreakerApp.swift; sourceTree = "<group>"; };
-		8699A26C2D42CB1B00A66FF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8699A26E2D42CB1C00A66FF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8699A2712D42CB1C00A66FF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8699A27C2D42CB5800A66FF9 /* BrickCustomButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickCustomButtons.swift; sourceTree = "<group>"; };
+		8699A27E2D42CB6100A66FF9 /* BrickImageName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickImageName.swift; sourceTree = "<group>"; };
+		8699A2812D42CB6F00A66FF9 /* BrickTextExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickTextExtension.swift; sourceTree = "<group>"; };
+		8699A2852D42CCEB00A66FF9 /* FredokaOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FredokaOne-Regular.ttf"; sourceTree = "<group>"; };
+		8699A2862D42CCF200A66FF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8699A28B2D42D02F00A66FF9 /* BrickMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickMenuView.swift; sourceTree = "<group>"; };
+		8699A28C2D42D02F00A66FF9 /* BrickMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickMenuModel.swift; sourceTree = "<group>"; };
+		8699A28D2D42D02F00A66FF9 /* BrickMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickMenuViewModel.swift; sourceTree = "<group>"; };
+		8699A2932D42D5EF00A66FF9 /* BrickSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickSettingsView.swift; sourceTree = "<group>"; };
+		8699A2942D42D5EF00A66FF9 /* BrickSettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickSettingsModel.swift; sourceTree = "<group>"; };
+		8699A2952D42D5EF00A66FF9 /* BrickSettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickSettingsViewModel.swift; sourceTree = "<group>"; };
+		8699A29A2D42DC6400A66FF9 /* BrickShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickShopView.swift; sourceTree = "<group>"; };
+		8699A29B2D42DC6400A66FF9 /* BrickShopModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickShopModel.swift; sourceTree = "<group>"; };
+		8699A29C2D42DC6400A66FF9 /* BrickShopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickShopViewModel.swift; sourceTree = "<group>"; };
+		8699A2A12D42E84600A66FF9 /* BrickLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickLevelView.swift; sourceTree = "<group>"; };
+		8699A2A22D42E84600A66FF9 /* BrickLevelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickLevelModel.swift; sourceTree = "<group>"; };
+		8699A2A32D42E84600A66FF9 /* BrickLevelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickLevelViewModel.swift; sourceTree = "<group>"; };
+		8699A2A82D42ED7500A66FF9 /* BrickGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickGameView.swift; sourceTree = "<group>"; };
+		8699A2A92D42ED7500A66FF9 /* BrickGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickGameModel.swift; sourceTree = "<group>"; };
+		8699A2AA2D42ED7500A66FF9 /* BrickGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickGameViewModel.swift; sourceTree = "<group>"; };
+		86D5D04C2D4C0970007DEF84 /* BricksGameSpriteKitExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BricksGameSpriteKitExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +111,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		869738802D4E6F6900E7E5AF /* BricksPauseModule */ = {
+			isa = PBXGroup;
+			children = (
+				869738812D4E6F7800E7E5AF /* BrocksPauseView.swift */,
+				869738822D4E6F7800E7E5AF /* BrocksPauseModel.swift */,
+				869738832D4E6F7800E7E5AF /* BrocksPauseViewModel.swift */,
+			);
+			path = BricksPauseModule;
+			sourceTree = "<group>";
+		};
+		869738872D4E778B00E7E5AF /* BriksLoseModule */ = {
+			isa = PBXGroup;
+			children = (
+				869738882D4E77A000E7E5AF /* BricksLoseView.swift */,
+				869738892D4E77A000E7E5AF /* BricksLoseModel.swift */,
+				8697388A2D4E77A000E7E5AF /* BricksLoseViewModel.swift */,
+			);
+			path = BriksLoseModule;
+			sourceTree = "<group>";
+		};
+		8697388E2D4E781700E7E5AF /* BriksWinModule */ = {
+			isa = PBXGroup;
+			children = (
+				8697388F2D4E782100E7E5AF /* BricksWinView.swift */,
+				869738902D4E782100E7E5AF /* BricksWinModel.swift */,
+				869738912D4E782100E7E5AF /* BricksWinViewModel.swift */,
+			);
+			path = BriksWinModule;
+			sourceTree = "<group>";
+		};
+		869738952D4E90CA00E7E5AF /* API */ = {
+			isa = PBXGroup;
+			children = (
+				869738AF2D4E9A1A00E7E5AF /* UserDefaultsManager */,
+				869738962D4E90CD00E7E5AF /* AudioManager */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		869738962D4E90CD00E7E5AF /* AudioManager */ = {
+			isa = PBXGroup;
+			children = (
+				869738982D4E90DC00E7E5AF /* Manager */,
+				869738972D4E90D500E7E5AF /* Sounds */,
+			);
+			path = AudioManager;
+			sourceTree = "<group>";
+		};
+		869738972D4E90D500E7E5AF /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				869738A82D4E979B00E7E5AF /* block.wav */,
+				869738A72D4E979B00E7E5AF /* yellowBall.wav */,
+				8697389B2D4E90ED00E7E5AF /* lose.wav */,
+				869738AD2D4E984300E7E5AF /* ball.wav */,
+				869738A52D4E92F000E7E5AF /* bg.wav */,
+				8697389D2D4E90EE00E7E5AF /* win.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		869738982D4E90DC00E7E5AF /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				869738992D4E90E300E7E5AF /* AudioManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		869738AF2D4E9A1A00E7E5AF /* UserDefaultsManager */ = {
+			isa = PBXGroup;
+			children = (
+				869738B02D4E9A2800E7E5AF /* UserDefaultsManager.swift */,
+			);
+			path = UserDefaultsManager;
+			sourceTree = "<group>";
+		};
 		8699A25E2D42CB1B00A66FF9 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +207,19 @@
 		8699A2692D42CB1B00A66FF9 /* BricksBreaker */ = {
 			isa = PBXGroup;
 			children = (
+				8699A2862D42CCF200A66FF9 /* Info.plist */,
 				8699A26A2D42CB1B00A66FF9 /* BricksBreakerApp.swift */,
-				8699A26C2D42CB1B00A66FF9 /* ContentView.swift */,
+				8697388E2D4E781700E7E5AF /* BriksWinModule */,
+				869738872D4E778B00E7E5AF /* BriksLoseModule */,
+				869738802D4E6F6900E7E5AF /* BricksPauseModule */,
+				8699A2A72D42ED6900A66FF9 /* BricksGameModule */,
+				8699A2A02D42E83900A66FF9 /* BricksLevelModule */,
+				8699A2992D42DC5600A66FF9 /* BrickShopModule */,
+				8699A2922D42D5E100A66FF9 /* BrickSettingsModule */,
+				8699A28A2D42CFEA00A66FF9 /* BrickMenuModule */,
+				8699A2802D42CB6300A66FF9 /* BrickExtensions */,
+				8699A2782D42CB2C00A66FF9 /* Helpers */,
+				869738952D4E90CA00E7E5AF /* API */,
 				8699A26E2D42CB1C00A66FF9 /* Assets.xcassets */,
 				8699A2702D42CB1C00A66FF9 /* Preview Content */,
 			);
@@ -65,6 +232,118 @@
 				8699A2712D42CB1C00A66FF9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8699A2782D42CB2C00A66FF9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8699A27B2D42CB3B00A66FF9 /* BrickImageName */,
+				8699A27A2D42CB3800A66FF9 /* Fonts */,
+				8699A2792D42CB3000A66FF9 /* BrickCustomButtons */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8699A2792D42CB3000A66FF9 /* BrickCustomButtons */ = {
+			isa = PBXGroup;
+			children = (
+				8699A27C2D42CB5800A66FF9 /* BrickCustomButtons.swift */,
+			);
+			path = BrickCustomButtons;
+			sourceTree = "<group>";
+		};
+		8699A27A2D42CB3800A66FF9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8699A2852D42CCEB00A66FF9 /* FredokaOne-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8699A27B2D42CB3B00A66FF9 /* BrickImageName */ = {
+			isa = PBXGroup;
+			children = (
+				8699A27E2D42CB6100A66FF9 /* BrickImageName.swift */,
+			);
+			path = BrickImageName;
+			sourceTree = "<group>";
+		};
+		8699A2802D42CB6300A66FF9 /* BrickExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				8699A2912D42D04900A66FF9 /* BrickTextExtension */,
+			);
+			path = BrickExtensions;
+			sourceTree = "<group>";
+		};
+		8699A28A2D42CFEA00A66FF9 /* BrickMenuModule */ = {
+			isa = PBXGroup;
+			children = (
+				8699A28B2D42D02F00A66FF9 /* BrickMenuView.swift */,
+				8699A28C2D42D02F00A66FF9 /* BrickMenuModel.swift */,
+				8699A28D2D42D02F00A66FF9 /* BrickMenuViewModel.swift */,
+			);
+			path = BrickMenuModule;
+			sourceTree = "<group>";
+		};
+		8699A2912D42D04900A66FF9 /* BrickTextExtension */ = {
+			isa = PBXGroup;
+			children = (
+				8699A2812D42CB6F00A66FF9 /* BrickTextExtension.swift */,
+			);
+			path = BrickTextExtension;
+			sourceTree = "<group>";
+		};
+		8699A2922D42D5E100A66FF9 /* BrickSettingsModule */ = {
+			isa = PBXGroup;
+			children = (
+				8699A2932D42D5EF00A66FF9 /* BrickSettingsView.swift */,
+				8699A2942D42D5EF00A66FF9 /* BrickSettingsModel.swift */,
+				8699A2952D42D5EF00A66FF9 /* BrickSettingsViewModel.swift */,
+			);
+			path = BrickSettingsModule;
+			sourceTree = "<group>";
+		};
+		8699A2992D42DC5600A66FF9 /* BrickShopModule */ = {
+			isa = PBXGroup;
+			children = (
+				8699A29A2D42DC6400A66FF9 /* BrickShopView.swift */,
+				8699A29B2D42DC6400A66FF9 /* BrickShopModel.swift */,
+				8699A29C2D42DC6400A66FF9 /* BrickShopViewModel.swift */,
+			);
+			path = BrickShopModule;
+			sourceTree = "<group>";
+		};
+		8699A2A02D42E83900A66FF9 /* BricksLevelModule */ = {
+			isa = PBXGroup;
+			children = (
+				8699A2A12D42E84600A66FF9 /* BrickLevelView.swift */,
+				8699A2A22D42E84600A66FF9 /* BrickLevelModel.swift */,
+				8699A2A32D42E84600A66FF9 /* BrickLevelViewModel.swift */,
+			);
+			path = BricksLevelModule;
+			sourceTree = "<group>";
+		};
+		8699A2A72D42ED6900A66FF9 /* BricksGameModule */ = {
+			isa = PBXGroup;
+			children = (
+				8699A2A82D42ED7500A66FF9 /* BrickGameView.swift */,
+				8699A2A92D42ED7500A66FF9 /* BrickGameModel.swift */,
+				8699A2AA2D42ED7500A66FF9 /* BrickGameViewModel.swift */,
+				86D5D04B2D4C095B007DEF84 /* BricksGameSpriteKitExtension */,
+			);
+			path = BricksGameModule;
+			sourceTree = "<group>";
+		};
+		86D5D04B2D4C095B007DEF84 /* BricksGameSpriteKitExtension */ = {
+			isa = PBXGroup;
+			children = (
+				86D5D04C2D4C0970007DEF84 /* BricksGameSpriteKitExtension.swift */,
+				869738B42D4EC1EB00E7E5AF /* BrickGameSpriteKit.swift */,
+				869738B62D4EC1F400E7E5AF /* BrickGameData.swift */,
+				869738B82D4EC1F900E7E5AF /* CBitMask.swift */,
+			);
+			path = BricksGameSpriteKitExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +404,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				869738A62D4E92F000E7E5AF /* bg.wav in Resources */,
+				869738A92D4E979B00E7E5AF /* yellowBall.wav in Resources */,
+				869738AA2D4E979B00E7E5AF /* block.wav in Resources */,
+				8699A2872D42CD3A00A66FF9 /* FredokaOne-Regular.ttf in Resources */,
 				8699A2722D42CB1C00A66FF9 /* Preview Assets.xcassets in Resources */,
+				869738A22D4E90EE00E7E5AF /* win.wav in Resources */,
+				869738AE2D4E984300E7E5AF /* ball.wav in Resources */,
 				8699A26F2D42CB1C00A66FF9 /* Assets.xcassets in Resources */,
+				869738A02D4E90EE00E7E5AF /* lose.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +423,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8699A26D2D42CB1B00A66FF9 /* ContentView.swift in Sources */,
+				8699A2962D42D5EF00A66FF9 /* BrickSettingsView.swift in Sources */,
+				869738B12D4E9A2800E7E5AF /* UserDefaultsManager.swift in Sources */,
+				86D5D04D2D4C0970007DEF84 /* BricksGameSpriteKitExtension.swift in Sources */,
+				8699A2972D42D5EF00A66FF9 /* BrickSettingsModel.swift in Sources */,
+				8699A2AB2D42ED7500A66FF9 /* BrickGameView.swift in Sources */,
+				869738B72D4EC1F400E7E5AF /* BrickGameData.swift in Sources */,
+				8699A2AC2D42ED7500A66FF9 /* BrickGameModel.swift in Sources */,
+				8699A2AD2D42ED7500A66FF9 /* BrickGameViewModel.swift in Sources */,
+				8699A2A42D42E84600A66FF9 /* BrickLevelView.swift in Sources */,
+				8699A2A52D42E84600A66FF9 /* BrickLevelModel.swift in Sources */,
+				8699A2A62D42E84600A66FF9 /* BrickLevelViewModel.swift in Sources */,
+				869738842D4E6F7800E7E5AF /* BrocksPauseView.swift in Sources */,
+				869738852D4E6F7800E7E5AF /* BrocksPauseModel.swift in Sources */,
+				869738862D4E6F7800E7E5AF /* BrocksPauseViewModel.swift in Sources */,
+				8699A2982D42D5EF00A66FF9 /* BrickSettingsViewModel.swift in Sources */,
+				869738922D4E782100E7E5AF /* BricksWinView.swift in Sources */,
+				869738932D4E782100E7E5AF /* BricksWinModel.swift in Sources */,
+				869738942D4E782100E7E5AF /* BricksWinViewModel.swift in Sources */,
+				8699A27D2D42CB5800A66FF9 /* BrickCustomButtons.swift in Sources */,
+				8697388B2D4E77A000E7E5AF /* BricksLoseView.swift in Sources */,
+				8697389A2D4E90E300E7E5AF /* AudioManager.swift in Sources */,
+				8697388C2D4E77A000E7E5AF /* BricksLoseModel.swift in Sources */,
+				8697388D2D4E77A000E7E5AF /* BricksLoseViewModel.swift in Sources */,
+				8699A2822D42CB6F00A66FF9 /* BrickTextExtension.swift in Sources */,
+				869738B52D4EC1EB00E7E5AF /* BrickGameSpriteKit.swift in Sources */,
+				8699A28E2D42D02F00A66FF9 /* BrickMenuView.swift in Sources */,
+				8699A28F2D42D02F00A66FF9 /* BrickMenuModel.swift in Sources */,
+				8699A29D2D42DC6400A66FF9 /* BrickShopView.swift in Sources */,
+				8699A29E2D42DC6400A66FF9 /* BrickShopModel.swift in Sources */,
+				869738B92D4EC1F900E7E5AF /* CBitMask.swift in Sources */,
+				8699A29F2D42DC6400A66FF9 /* BrickShopViewModel.swift in Sources */,
+				8699A2902D42D02F00A66FF9 /* BrickMenuViewModel.swift in Sources */,
+				8699A27F2D42CB6100A66FF9 /* BrickImageName.swift in Sources */,
 				8699A26B2D42CB1B00A66FF9 /* BricksBreakerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,11 +593,12 @@
 				DEVELOPMENT_TEAM = 59WWFG63NN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BricksBreaker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +623,12 @@
 				DEVELOPMENT_TEAM = 59WWFG63NN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BricksBreaker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
